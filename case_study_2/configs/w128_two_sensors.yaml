@@ -1,0 +1,12 @@
+# P-JUS-CKGL and P-TPT only. P-JUS-CKGL is almost absent outside classes 7 and 9.
+random_seed: 42
+output_dir: outputs_two_sensors
+
+preprocessing:
+  window_size: 128
+  stride: 128
+  train_frac: 0.7
+  val_frac: 0.15
+  test_frac: 0.15
+  min_presence_frac: 0.3
+  exclude_sensors: [P-PDG, P-ANULAR, P-MON-CKP, T-JUS-CKP, T-TPT]

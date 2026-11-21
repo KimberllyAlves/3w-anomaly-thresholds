@@ -1,0 +1,7 @@
+[project]
+name = "vae3w"
+version = "1.0"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["vae3w"]

@@ -1,0 +1,11 @@
+# versions used to produce the reported results
+numpy==2.5.1
+pandas==2.3.3
+pyarrow==21.0.0
+scipy==1.18.0
+scikit-learn==1.7.2
+statsmodels==0.14.6
+torch==2.11.0
+optuna==4.9.0
+matplotlib==3.10.7
+pyyaml==6.0.3

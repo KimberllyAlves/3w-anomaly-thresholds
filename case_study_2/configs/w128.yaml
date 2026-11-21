@@ -1,0 +1,11 @@
+random_seed: 42
+output_dir: outputs
+
+preprocessing:
+  window_size: 128
+  stride: 128
+  train_frac: 0.7
+  val_frac: 0.15
+  test_frac: 0.15
+  min_presence_frac: 0.3
+  exclude_sensors: [P-PDG, P-ANULAR, P-JUS-CKGL, T-TPT]
